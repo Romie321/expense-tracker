@@ -32,3 +32,10 @@ h1 {
   font-weight: 600;
   letter-spacing: -0.5px;
 }
+
+h2 {
+  color: 2d3748;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
