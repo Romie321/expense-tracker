@@ -66,3 +66,9 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
+
+.income,
+.expenses {
+  background-color: #fff;
+  padding: 24px;
+}
