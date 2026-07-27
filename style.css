@@ -14,3 +14,9 @@ body {
   padding: 20px;
   color: #2d3436;
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+}
