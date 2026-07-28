@@ -71,4 +71,6 @@ h2 {
 .expenses {
   background-color: #fff;
   padding: 24px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
