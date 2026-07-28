@@ -121,3 +121,7 @@ h2 {
   padding-right: 8px;
   flex-grow: 1;
 }
+
+#Transaction-list::-webkit-scrollbar {
+  width: 8px;
+}
