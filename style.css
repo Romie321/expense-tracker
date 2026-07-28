@@ -116,4 +116,6 @@ h2 {
 
 #transaction-list {
   list-style: none;
+  max-height: 500px;
+  overflow-y: auto;
 }
