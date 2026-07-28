@@ -107,3 +107,9 @@ h2 {
 .expenses p {
   color: #dc2626;
 }
+
+.transaction-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
