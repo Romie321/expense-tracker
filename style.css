@@ -95,7 +95,7 @@ h2 {
 
 .income p,
 .expenses p {
-  color: #059669;
+  margin-top: 8px;
   font-size: 1.75rem;
   font-weight: 600;
 }
