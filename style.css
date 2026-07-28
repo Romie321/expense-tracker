@@ -118,4 +118,6 @@ h2 {
   list-style: none;
   max-height: 500px;
   overflow-y: auto;
+  padding-right: 8px;
+  flex-grow: 1;
 }
