@@ -125,3 +125,12 @@ h2 {
 #Transaction-list::-webkit-scrollbar {
   width: 8px;
 }
+
+#Transaction-list::-webkit-scrollbar-track {
+}
+
+#Transaction-list::-webkit-scrollbar-thumb {
+}
+
+#Transaction-list::-webkit-scrollbar-thumb:hover {
+}
