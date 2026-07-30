@@ -183,4 +183,6 @@ h2 {
 }
 
 .transaction .delete-btn {
+  background: none;
+  border: none;
 }
