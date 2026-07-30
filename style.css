@@ -157,7 +157,7 @@ h2 {
   border-right: 5px solid;
   animation: slideIn 0.3s ease;
 }
-
+/*may need to troubleshoot this later*/
 @keyframes slideIn {
   from {
     opacity: 0;
