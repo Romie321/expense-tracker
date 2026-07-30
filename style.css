@@ -194,3 +194,7 @@ h2 {
   border-radius: 4px;
   margin-left: 12px;
 }
+
+.transaction:hover .delete-btn {
+  opacity: 1;
+}
