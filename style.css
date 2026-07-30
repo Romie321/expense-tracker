@@ -177,3 +177,7 @@ h2 {
 .transaction.income {
   border-right-color: #059669;
 }
+
+.transaction.expense {
+  border-right-color: #dc2626;
+}
