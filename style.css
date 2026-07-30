@@ -198,3 +198,6 @@ h2 {
 .transaction:hover .delete-btn {
   opacity: 1;
 }
+
+.transaction .delete-btn:hover {
+}
