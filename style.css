@@ -122,6 +122,7 @@ h2 {
   flex-grow: 1;
 }
 
+/*scrollbar*/
 #Transaction-list::-webkit-scrollbar {
   width: 8px;
 }
@@ -141,3 +142,5 @@ h2 {
 #Transaction-list::-webkit-scrollbar-thumb:hover {
   background-color: #a0aec0;
 }
+
+/*transaction entry cards*/
