@@ -155,4 +155,5 @@ h2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease;
   border-right: 5px solid;
+  animation: slideIn 0.3s ease;
 }
