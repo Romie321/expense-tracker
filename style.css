@@ -127,6 +127,9 @@ h2 {
 }
 
 #Transaction-list::-webkit-scrollbar-track {
+  /*track is the scrollbar background*/
+  background-color: #f1f1f1;
+  border-radius: 4px;
 }
 
 #Transaction-list::-webkit-scrollbar-thumb {
