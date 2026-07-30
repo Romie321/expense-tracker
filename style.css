@@ -168,3 +168,11 @@ h2 {
     transform: translateX(0);
   }
 }
+
+.transaction:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.transaction.income {
+}
