@@ -133,6 +133,9 @@ h2 {
 }
 
 #Transaction-list::-webkit-scrollbar-thumb {
+  /*thumb is the scrollbars dragable part*/
+  background-color: #cbd5e0;
+  border-radius: 4px;
 }
 
 #Transaction-list::-webkit-scrollbar-thumb:hover {
