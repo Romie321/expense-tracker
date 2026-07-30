@@ -200,4 +200,6 @@ h2 {
 }
 
 .transaction .delete-btn:hover {
+  background-color: #fee2e2;
+  transform: scale(1.1);
 }
