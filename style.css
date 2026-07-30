@@ -205,4 +205,6 @@ h2 {
 }
 .form-container {
   background: linear-gradient(135deg, #f6f8fb, #f1f4f8);
+  padding: 24px;
+  border-radius: 16px;
 }
