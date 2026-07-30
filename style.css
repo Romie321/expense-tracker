@@ -181,3 +181,6 @@ h2 {
 .transaction.expense {
   border-right-color: #dc2626;
 }
+
+.transaction .delete-btn {
+}
