@@ -214,4 +214,7 @@ h2 {
 }
 
 .form-container form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
