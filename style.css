@@ -300,4 +300,9 @@ button[type="submit"]:active {
   .container {
     padding: 24px;
   }
+
+  .summary {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
