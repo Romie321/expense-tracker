@@ -305,4 +305,8 @@ button[type="submit"]:active {
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
+  .balance-container h1 {
+    font-size: 2rem;
+  }
 }
