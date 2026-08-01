@@ -256,3 +256,6 @@ small {
   margin-top: 4px;
   display: block;
 }
+
+button[type="submit"] {
+}
