@@ -290,4 +290,8 @@ button[type="submit"]:active {
   .main-content {
     grid-template-columns: 1fr;
   }
+
+  #transaction-list {
+    max-height: 300px;
+  }
 }
