@@ -314,4 +314,8 @@ button[type="submit"]:active {
   .expenses p {
     font-size: 1.5rem;
   }
+
+  .transaction {
+    padding: 14px 16px;
+  }
 }
