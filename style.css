@@ -309,4 +309,9 @@ button[type="submit"]:active {
   .balance-container h1 {
     font-size: 2rem;
   }
+
+  .income p,
+  .expenses p {
+    font-size: 1.5rem;
+  }
 }
