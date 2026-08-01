@@ -297,4 +297,7 @@ button[type="submit"]:active {
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 24px;
+  }
 }
