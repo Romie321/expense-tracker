@@ -285,3 +285,6 @@ button[type="submit"]:active {
 }
 
 /*responsive design*/
+
+@media (max-width: 900px) {
+}
