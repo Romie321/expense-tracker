@@ -273,3 +273,6 @@ button[type="submit"] {
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2); /* maybe consider changing this */
   margin-top: auto;
 }
+
+button[type="submit"]:hover {
+}
