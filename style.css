@@ -270,5 +270,5 @@ button[type="submit"] {
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2); /* maybe consider changing this */
 }
