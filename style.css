@@ -295,3 +295,6 @@ button[type="submit"]:active {
     max-height: 300px;
   }
 }
+
+@media (max-width: 480px) {
+}
