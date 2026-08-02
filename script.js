@@ -29,3 +29,7 @@ function addTransaction(e) {
 function updateTransactionList() {
   transactionListEl.innerHTML = "";
   const sortedTransactions = [...transactions].sort((a, b) => b.id - a.id);
+    sortedTransactions.forEach((transaction) => {
+        const transactionEl = createTransactionElement(transaction);
+        transactionListEl.appendChild(transactionEl);
+    });
