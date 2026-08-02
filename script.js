@@ -13,12 +13,15 @@ transactionFormEl.addEventListener("submit", addTransaction);
 function addTransaction(e) {
   e.preventDefault();
 
-    const description = descriptionEl.value.trim();
-    const amount = parseFloat(amountEl.value.trim());
+  const description = descriptionEl.value.trim();
+  const amount = parseFloat(amountEl.value.trim());
 
-    transactions.push({ id: Date.now(), description, amount });
+  transactions.push({ id: Date.now(), description, amount });
 
-    localStorage.setItem("transactions", JSON.stringify(transactions));
+  localStorage.setItem("transactions", JSON.stringify(transactions));
 
-    updateTransactionList();
-    updateSummary();
+  updateTransactionList();
+  updateSummary();
+
+  transactionFormEl.reset();
+}
