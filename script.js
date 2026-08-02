@@ -5,3 +5,5 @@ const transactionListEl = document.getElementById("transaction-list");
 const transactionFormEl = document.getElementById("transaction-form");
 const descriptionEl = document.getElementById("description");
 const amountEl = document.getElementById("amount");
+
+let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
