@@ -29,10 +29,10 @@ function addTransaction(e) {
 function updateTransactionList() {
   transactionListEl.innerHTML = "";
   const sortedTransactions = [...transactions].sort((a, b) => b.id - a.id);
-    sortedTransactions.forEach((transaction) => {
-        const transactionEl = createTransactionElement(transaction);
-        transactionListEl.appendChild(transactionEl);
-    });
+  sortedTransactions.forEach((transaction) => {
+    const transactionEl = createTransactionElement(transaction);
+    transactionListEl.appendChild(transactionEl);
+  });
 }
 
 function createTransactionElement(transaction) {
@@ -41,9 +41,9 @@ function createTransactionElement(transaction) {
   li.classList.add(transaction.amount < 0 ? "expense" : "income");
 
   //update format
-    li.innerHTML = `<span>${transaction.description}</span>
+  li.innerHTML = `<span>${transaction.description}</span>
     <span>${transaction.amount}
-    <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">x</button>`;
+    <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">x</button>
     </span>`;
 
   return li;
