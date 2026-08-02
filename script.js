@@ -19,3 +19,6 @@ function addTransaction(e) {
     transactions.push({ id: Date.now(), description, amount });
 
     localStorage.setItem("transactions", JSON.stringify(transactions));
+
+    updateTransactionList();
+    updateSummary();
