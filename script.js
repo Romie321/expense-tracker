@@ -38,4 +38,4 @@ function updateTransactionList() {
 function createTransactionElement(transaction) {
   const li = document.createElement("li");
   li.classList.add("transaction");
-  li.classList.add(transaction.amount > 0 ? "expense" : "income");
+  li.classList.add(transaction.amount < 0 ? "expense" : "income");
