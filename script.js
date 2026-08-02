@@ -9,3 +9,8 @@ const amountEl = document.getElementById("amount");
 let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
 transactionFormEl.addEventListener("submit", addTransaction);
+
+function addTransaction(e) {
+  e.preventDefault();
+
+    const description = descriptionEl.value.trim();
