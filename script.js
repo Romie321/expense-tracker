@@ -39,3 +39,11 @@ function createTransactionElement(transaction) {
   const li = document.createElement("li");
   li.classList.add("transaction");
   li.classList.add(transaction.amount < 0 ? "expense" : "income");
+
+    li.innerHTML = `<span>${transaction.description}</span>
+    <span>${transaction.amount}
+    <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">x</button>`;
+    </span>`;
+
+  return li;
+}
