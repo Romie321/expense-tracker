@@ -17,3 +17,5 @@ function addTransaction(e) {
     const amount = parseFloat(amountEl.value.trim());
 
     transactions.push({ id: Date.now(), description, amount });
+
+    localStorage.setItem("transactions", JSON.stringify(transactions));
