@@ -14,3 +14,4 @@ function addTransaction(e) {
   e.preventDefault();
 
     const description = descriptionEl.value.trim();
+    const amount = parseFloat(amountEl.value.trim());
