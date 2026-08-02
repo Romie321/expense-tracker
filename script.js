@@ -15,3 +15,5 @@ function addTransaction(e) {
 
     const description = descriptionEl.value.trim();
     const amount = parseFloat(amountEl.value.trim());
+
+    transactions.push({ id: Date.now(), description, amount });
