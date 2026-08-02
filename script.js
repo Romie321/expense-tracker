@@ -33,3 +33,9 @@ function updateTransactionList() {
         const transactionEl = createTransactionElement(transaction);
         transactionListEl.appendChild(transactionEl);
     });
+}
+
+function createTransactionElement(transaction) {
+  const transactionEl = document.createElement("li");
+  li.classList.add("transaction");
+  li.classList.add(transaction.amount > 0 ? "expense" : "income");
