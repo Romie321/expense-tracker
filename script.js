@@ -25,3 +25,7 @@ function addTransaction(e) {
 
   transactionFormEl.reset();
 }
+
+function updateTransactionList() {
+  transactionListEl.innerHTML = "";
+  const sortedTransactions = [...transactions].sort((a, b) => b.id - a.id);
