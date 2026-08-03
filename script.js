@@ -74,6 +74,13 @@ function formCurrency(number) {
   }).format(number);
 }
 
+function deleteTransaction(id) {
+  transactions = transactions.filter((transaction) => transaction.id !== id);
+  localStorage.setItem("transactions", JSON.stringify(transactions));
+  updateTransactionList();
+  updateSummary();
+}
+
 //initial render
 updateTransactionList();
 updateSummary();
