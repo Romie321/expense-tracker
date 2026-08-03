@@ -62,9 +62,9 @@ function UpdateSummary() {
     .reduce((acc, transaction) => acc + transaction.amount, 0);
 
   //ui updates
-  balanceEl.textContent = balance;
-  incomeAmountEl.textContent = income;
-  expenseAmountEl.textContent = expense;
+  balanceEl.textContent = formCurrency(balance);
+  incomeAmountEl.textContent = formCurrency(income);
+  expenseAmountEl.textContent = formCurrency(expense);
 }
 
 function formCurrency(number) {
