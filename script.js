@@ -66,3 +66,5 @@ function UpdateSummary() {
   incomeAmountEl.textContent = income;
   expenseAmountEl.textContent = expense;
 }
+
+function formCurrency(number) {}
