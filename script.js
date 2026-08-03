@@ -67,4 +67,9 @@ function UpdateSummary() {
   expenseAmountEl.textContent = expense;
 }
 
-function formCurrency(number) {}
+function formCurrency(number) {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+  }).format(number);
+}
