@@ -48,3 +48,5 @@ function createTransactionElement(transaction) {
 
   return li;
 }
+
+function UpdateSummary() {}
