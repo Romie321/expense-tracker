@@ -42,7 +42,7 @@ function createTransactionElement(transaction) {
 
   //update format
   li.innerHTML = `<span>${transaction.description}</span>
-    <span>${transaction.amount}
+    <span>${formCurrency(transaction.amount)}
     <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">x</button>
     </span>`;
 
