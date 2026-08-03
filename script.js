@@ -60,4 +60,8 @@ function UpdateSummary() {
   const expense = transactions
     .filter((transaction) => transaction.amount < 0)
     .reduce((acc, transaction) => acc + transaction.amount, 0);
+
+  balanceEl.textContent = balance;
+  incomeAmountEl.textContent = income;
+  expenseAmountEl.textContent = expense;
 }
