@@ -49,4 +49,10 @@ function createTransactionElement(transaction) {
   return li;
 }
 
-function UpdateSummary() {}
+function UpdateSummary() {
+  const balance = transactions.reduce(
+    (acc, transaction) => acc + transaction.amount,
+    0,
+  );
+  const income = transactions;
+}
