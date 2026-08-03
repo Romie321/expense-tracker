@@ -73,3 +73,7 @@ function formCurrency(number) {
     currency: "USD",
   }).format(number);
 }
+
+//initial render
+updateTransactionList();
+updateSummary();
