@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #5e37a3, #cacef2);
+  /* background: linear-gradient(135deg, #5e37a3, #cacef2);*/
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -15,6 +15,25 @@ body {
   justify-content: center;
   padding: 20px;
   color: #2d3436;
+  /* Layer 1: Checkerboard pattern (semi-transparent) */
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.15) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.15) 75%),
+    /* Layer 2: Existing gradient background */
+    linear-gradient(135deg, #5e37a3, #cacef2);
+
+  /* Size of checkerboard squares */
+  background-size: 40px 40px;
+
+  /* Positioning for the checkerboard layers */
+  background-position:
+    0 0,
+    0 20px,
+    20px -20px,
+    -20px 0,
+    /* checkerboard offsets */ 0 0; /* gradient layer */
 }
 
 .container {
