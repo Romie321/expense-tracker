@@ -61,6 +61,7 @@ function UpdateSummary() {
     .filter((transaction) => transaction.amount < 0)
     .reduce((acc, transaction) => acc + transaction.amount, 0);
 
+  //ui updates
   balanceEl.textContent = balance;
   incomeAmountEl.textContent = income;
   expenseAmountEl.textContent = expense;
