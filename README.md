@@ -1,62 +1,53 @@
 # Expense Tracker
-A simple and beginner‑friendly Expense Tracker project designed to help users record and manage daily expenses. This project is currently in early development, starting with the HTML structure and preparing the foundation for future styling and JavaScript functionality.
+A modern, beginner‑friendly Expense Tracker built with HTML, CSS, and JavaScript.
+This project focuses on clean UI design, practical DOM manipulation, and real‑time expense calculations — all wrapped in a smooth, responsive layout with a subtle gradient background.
 
-## Status
-- Project just started
+# ✨ Features
+- Add income and expense transactions
 
-- HTML file in progress
+- Automatic calculation of balance, total income, and total expenses
 
-- CSS and JavaScript files created but not yet implemented
+- Organized transaction list with clear formatting
 
-- README added early to document progress and roadmap
+- Modern UI using Poppins font and a layered gradient background
 
-## Features (Planned)
-- Add new expenses with name, amount, and category
+- Responsive layout that stays centered and readable on all screen sizes
 
-- Display a list of all expenses
+## 🛠️ Tech Stack
+- HTML – semantic structure
 
-- Delete individual expenses
+- CSS – gradient background, checkerboard texture, responsive layout
 
-- Show total spending
+- JavaScript – dynamic rendering, form handling, real‑time calculations
 
-- Responsive layout for mobile and desktop
+## 📌 How It Works
+1. Enter a title and amount
 
-## Tech Stack
-- HTML
+2. Choose whether it’s income or an expense
 
-- CSS
+3. Submit the form
 
-- JavaScript
+4. The tracker updates totals instantly and displays your transaction in the list
 
-## Project Structure
-Code
-expense-tracker/
-│
-├── index.html      # Currently being built
-├── style.css       # Empty for now
-└── script.js       # Empty for now
+## 💡 Why I Built This
+I built this Expense Tracker to strengthen my core front‑end skills and practice writing clean, functional JavaScript.
+It gave me hands‑on experience with DOM manipulation, dynamic UI updates, and structuring a small project from scratch.
+I also used this project to improve my design sense — experimenting with gradients, layout, and readability — while building something practical that mirrors real‑world app behavior.
 
-## How It Will Work
-- Users will enter expenses through a form
+## 🚀 Planned Enhancements
+- Delete & edit transaction options
 
-- JavaScript will handle adding, removing, and updating totals
+- Category tags (Food, Bills, Entertainment, etc.)
 
-- The UI will update dynamically using DOM manipulation
+- LocalStorage support for saving data
 
-- Future versions may include saving data with localStorage
+- Improved mobile layout and animations
 
-## Roadmap
-- Build full HTML layout
+## 📸 Screenshots
+Coming soon
 
-- Add styling and responsive design
-
-- Implement JavaScript logic
-
-- Add categories and filtering
-
-- Add charts for visual insights
-
-- Add localStorage persistence
+## 🔗 Live Demo
+(Optional — you can remove this if GitHub Pages is already visible in the sidebar)
 
 ## Author
 ### Ramiro Aguilera  
