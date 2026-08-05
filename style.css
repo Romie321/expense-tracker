@@ -78,7 +78,7 @@ h2 {
   padding: 24px;
   background: linear-gradient(135deg, #a6d7ba, #648720);
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 13px rgba(0, 0, 0, 0.6);
 }
 
 #balance {
