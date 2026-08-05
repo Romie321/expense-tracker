@@ -47,7 +47,7 @@ I also used this project to improve my design sense — experimenting with gradi
 Coming soon
 
 ## 🔗 Live Demo
-(Optional — you can remove this if GitHub Pages is already visible in the sidebar)
+https://romie321.github.io/expense-tracker/
 
 ## Author
 ### Ramiro Aguilera  
